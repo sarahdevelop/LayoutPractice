@@ -11,6 +11,7 @@
 		D1E6AFE429B28C5300D6F6BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E6AFE329B28C5300D6F6BF /* ContentView.swift */; };
 		D1E6AFE629B28C5700D6F6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E6AFE529B28C5700D6F6BF /* Assets.xcassets */; };
 		D1E6AFE929B28C5700D6F6BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E6AFE829B28C5700D6F6BF /* Preview Assets.xcassets */; };
+		D1E6AFF029B3795800D6F6BF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E6AFEF29B3795800D6F6BF /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D1E6AFE329B28C5300D6F6BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D1E6AFE529B28C5700D6F6BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1E6AFE829B28C5700D6F6BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1E6AFEF29B3795800D6F6BF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				D1E6AFE129B28C5300D6F6BF /* LayoutPracticeApp.swift */,
 				D1E6AFE329B28C5300D6F6BF /* ContentView.swift */,
+				D1E6AFEF29B3795800D6F6BF /* DetailView.swift */,
 				D1E6AFE529B28C5700D6F6BF /* Assets.xcassets */,
 				D1E6AFE729B28C5700D6F6BF /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1E6AFE429B28C5300D6F6BF /* ContentView.swift in Sources */,
+				D1E6AFF029B3795800D6F6BF /* DetailView.swift in Sources */,
 				D1E6AFE229B28C5300D6F6BF /* LayoutPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

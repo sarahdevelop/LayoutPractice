@@ -10,13 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            ScrollView(.horizontal, showsIndicators: false){
-                HStack(spacing: 16){
-                    ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
-                        CardView()
+            ScrollView {
+                ScrollView(.horizontal, showsIndicators: false){
+                    HStack(spacing: 16){
+                        ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+                            CardView()
+                        }
                     }
+                    .padding()
                 }
-                .padding()
+                .navigationTitle("Learn SwiftUI")
             }
         }
     }

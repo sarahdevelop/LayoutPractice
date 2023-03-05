@@ -12,6 +12,8 @@
 		D1E6AFE629B28C5700D6F6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E6AFE529B28C5700D6F6BF /* Assets.xcassets */; };
 		D1E6AFE929B28C5700D6F6BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E6AFE829B28C5700D6F6BF /* Preview Assets.xcassets */; };
 		D1E6AFF029B3795800D6F6BF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E6AFEF29B3795800D6F6BF /* DetailView.swift */; };
+		D1E6AFF229B5382B00D6F6BF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E6AFF129B5382B00D6F6BF /* CardView.swift */; };
+		D1E6AFF429B538C000D6F6BF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E6AFF329B538C000D6F6BF /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		D1E6AFE529B28C5700D6F6BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1E6AFE829B28C5700D6F6BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1E6AFEF29B3795800D6F6BF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		D1E6AFF129B5382B00D6F6BF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D1E6AFF329B538C000D6F6BF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				D1E6AFEF29B3795800D6F6BF /* DetailView.swift */,
 				D1E6AFE529B28C5700D6F6BF /* Assets.xcassets */,
 				D1E6AFE729B28C5700D6F6BF /* Preview Content */,
+				D1E6AFF129B5382B00D6F6BF /* CardView.swift */,
+				D1E6AFF329B538C000D6F6BF /* HomeView.swift */,
 			);
 			path = LayoutPractice;
 			sourceTree = "<group>";
@@ -142,6 +148,8 @@
 			files = (
 				D1E6AFE429B28C5300D6F6BF /* ContentView.swift in Sources */,
 				D1E6AFF029B3795800D6F6BF /* DetailView.swift in Sources */,
+				D1E6AFF229B5382B00D6F6BF /* CardView.swift in Sources */,
+				D1E6AFF429B538C000D6F6BF /* HomeView.swift in Sources */,
 				D1E6AFE229B28C5300D6F6BF /* LayoutPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

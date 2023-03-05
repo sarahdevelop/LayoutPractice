@@ -37,6 +37,16 @@ struct DetailView: View {
                 startPoint: UnitPoint(x: 0.928315533548116, y: 5.972487299166218e-8),
                 endPoint: UnitPoint(x: 1.7579084410357382e-8, y: 1.1827957280344592)))
             .foregroundColor(.white)
+            
+            VStack(alignment: .leading, spacing: 8) {
+                Text("SwiftUI is hands down the best way for designers to take their first step into code.")
+                    .font(.headline)
+                Text("This course:")
+                    .font(.title)
+                    .fontWeight(.bold)
+                Text("This course is unlike any other. We care about design and want to make sure that you get better at it in the process. Furthermore we focused on visual learning via video, instead of boring arcticles to read through. ")
+            }
+            .padding()
         }
 
     }
